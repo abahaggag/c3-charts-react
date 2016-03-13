@@ -1,0 +1,218 @@
+body {
+    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.left{
+    float: left;
+}
+
+table{
+    margin-bottom: 10px;
+}
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th{
+    border: none;
+}
+
+.text_rtl{
+    text-align: right;
+}
+
+.width100{
+    width: 100px;
+}
+
+.back-link { font-size: 0.8em; margin-bottom: 1em; }
+
+.tab_body{
+    padding:40px 20px 20px 20px;
+    
+    border:1px solid #ddd;
+    border-top: none;
+}
+
+.padding-top-15{
+     padding: 15px 0 0 0;
+}
+
+#loading-indicator {
+   display: none;
+ }
+
+ .active{
+    font-weight: bolder;
+    color: white;
+ }
+
+ /* About */
+#about_text p{
+    line-height: 30px;
+    font-size: 13pt
+}
+
+/* Contact */
+.header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+/* Line Chart Legend */
+.line-legend{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 40px;
+    border: solid 2px rgb(200,200,200);
+    text-align: center;
+    border-radius: 10px
+}
+
+.line-legend li{
+    display: inline-block;
+    margin-right: 40px
+}
+
+.line-legend li div{
+    height: 12px;
+    width: 12px;
+    border: solid 1px none;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 6px
+}
+
+/* Pie Chart Legend */
+.pie-legend{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 40px;
+    border: solid 2px rgb(200,200,200);
+    text-align: center;
+    border-radius: 10px
+}
+
+.pie-legend li{
+    display: inline-block;
+    margin-right: 40px
+}
+
+.pie-legend li div{
+    height: 12px;
+    width: 12px;
+    border: solid 1px none;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 6px
+}
+
+.status {
+    display: block;
+    position: relative;
+    
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    color: #444;
+    /*margin-top: -15%;
+    margin-left: -15%;*/
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    /*border-radius: 50%;
+    border: 1px solid black*/
+}
+
+/* Bar Chart Legend */
+.bar-legend{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 40px;
+    border: solid 2px rgb(200,200,200);
+    text-align: center;
+    border-radius: 10px
+}
+
+.bar-legend li{
+    display: inline-block;
+    margin-right: 40px
+}
+
+.bar-legend li div{
+    height: 12px;
+    width: 12px;
+    border: solid 1px none;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 6px
+}
+
+.chart-info{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 40px;
+    border: solid 2px rgb(200,200,200);
+    color: rgb(155,155,155);
+    text-align: center;
+    border-radius: 10px
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "test-techniques",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-chartjs": "^0.7.3",
+    "react-dom": "^0.14.7"
+  }
+}
